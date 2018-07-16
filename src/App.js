@@ -8,6 +8,13 @@ class App extends Component {
 
     ReactGA.initialize('UA-122417377-1');
     ReactGA.pageview(window.location.pathname);
+
+    handleClick(){
+      ReactGA.event({
+      category: 'Submit',
+      action: 'Clicked button',
+    });
+    }
   }
   render() {
     return (
@@ -15,7 +22,7 @@ class App extends Component {
         <p className="message">
           Google Analytics
         </p>
-        <button type="button">Click me!</button>
+        <button type="button" onClick={() =>{this.handleClick()}}>Click me!</button>
       </div>
     );
   }
