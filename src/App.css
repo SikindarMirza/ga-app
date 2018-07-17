@@ -15,7 +15,7 @@ button {
   justify-content: center;
   position:absolute;
   top: 40%;
-  left: 44%;
+  left: 36%;
   background: green;
   border: none;
   border-radius: 4px;
@@ -30,7 +30,7 @@ button {
   justify-content: center;
   position:absolute;
   top: 40%;
-  left: 60%;
+  left: 54%;
   background: red;
   border: none;
   border-radius: 4px;
