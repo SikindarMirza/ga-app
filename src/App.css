@@ -37,3 +37,11 @@ button {
   width: 10rem;
   height: 2rem;
 }
+
+.header {
+  background: gray;
+  color: white;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
